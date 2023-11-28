@@ -1,0 +1,66 @@
+api keys 
+
+6153c310a6524282a928cbec0b3185a7
+
+23a4f20520fa4778b393dee12fe1fd48
+
+1c9023882887449d92804d33e1556051
+
+507cac4f824e4a288c15a1d3db302b0a
+
+${this.props.apikey}
+
+<<<more data>>>
+
+// Bootstrap Pagination
+handlePreviousClick = async () => {
+    this.setState({page: this.state.page - 1});
+    this.updateNews();
+}
+
+handleNextClick = async () => {
+ this.setState({page: this.state.page + 1});
+    this.updateNews();
+}
+<nav aria-label="Page navigation">
+    <ul className="pagination justify-content-center">
+        <li className={`page-item ${this.state.page <= 1 ? 'disabled' : ''}`}>
+            <button className="page-link" onClick={this.handlePreviousClick} tabIndex="-1" aria-disabled="true">Previous</button>
+        </li>
+        <li className="page-item disabled">
+            <span className="page-link">{this.state.page}</span>
+        </li>
+        <li className="page-item">
+            <button className="page-link" onClick={this.handleNextClick}>Next</button>
+        </li>
+    </ul>
+</nav> 
+
+ 
+ 
+
+// old code 
+  async updateNews() {
+    try {
+      this.setState({ loading: true });
+
+      let url = this.props.setUrl
+        ? this.props.setUrl(page)
+        : `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=23a4f20520fa4778b393dee12fe1fd48&pagesize=${this.props.pagesize}&page=${page}`;
+
+      let data = await fetch(url);
+
+      if (!data.ok) {
+        throw new Error(`Failed to fetch data. Status: ${data.status}`);
+      }
+
+      let parsedata = await data.json();
+      this.setState(prevState => ({ articles: [...prevState.articles, ...parsedata.articles], totalData: parsedata.totalResults, loading: false }));
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      this.setState({ loading: false });
+      alert("No more content available for now");
+    }
+  }
+  
+          

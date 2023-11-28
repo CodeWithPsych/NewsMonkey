@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": { "id": "news24", "name": "News24" },
+      "author": "Khanyiso Tshwaku",
+      "title": "'If it wasn't for transformation, there wouldn't be a Rabada or Bavuma' - former CSA selector Zondi",
+      "description": "Former Cricket South Africa national convenor of selectors Linda Zondi, in response to the DA's negative stance on the policy, said transformation targets are necessary for the game’s survival in the country.",
+      "url": "https://www.news24.com/sport/cricket/proteas/if-it-wasnt-for-transformation-there-wouldnt-be-a-rabada-or-bavuma-former-csa-selector-zondi-20231123",
+      "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/9947/ca3b9e7de4e94ecbbb120f0431c3ae86.jpg",
+      "publishedAt": "2023-11-23T16:07:21",
+      "content": "Former Cricket South Africa (CSA) men’s national team convenor, Linda Zondi, says that transformation targets at youth weeks are the reason why the Proteas have players like Kagiso Rabada and Temba B… [+287 chars]"
+    },
+    {
+      "source": { "id": "news-com-au", "name": "News.com.au" },
+      "author": null,
+      "title": "Windies great hit with shock six-year ban",
+      "description": "Former West Indies star Marlon Samuels has been banned from all cricket for six years for breaching an anti-corruption code, the sport’s world body has announced.",
+      "url": "https://www.news.com.au/sport/cricket/west-indies-great-marlon-samuels-cops-huge-corruption-ban/news-story/936c736d348202a5d13f8fc0a8233e3c",
+      "urlToImage": "https://content.api.news/v3/images/bin/1b75ea55bb4aba3391390ea780d77569",
+      "publishedAt": "2023-11-23T11:17:00Z",
+      "content": "Former West Indies star Marlon Samuels has been banned from all cricket for six years for breaching an anti-corruption code, the sport’s world body has announced.\r\nThe charges relate to the 42-year-o… [+1889 chars]"
+    },
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": null,
+      "title": "Samuels given six-year ban for anti-corruption breach",
+      "description": "Former Indies batter Marlon Samuels is banned from all cricket for six years for breaching anti-corruption rules.",
+      "url": "http://www.bbc.co.uk/sport/cricket/67505667",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/A275/production/_131798514_gettyimages-854100860.jpg",
+      "publishedAt": "2023-11-23T09:37:18.2924174Z",
+      "content": "Marlon Samuels was part of the West Indies team which beat England in the final of the 2016 T20 World Cup\r\nFormer West Indies batter Marlon Samuels has been banned from all cricket for six years for … [+2067 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "://httpsa4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
